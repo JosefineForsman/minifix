@@ -1,0 +1,44 @@
+.landing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: #EBE3DB;
+    background-image: url('../../assets/Hero.svg'); /* Lägg till bakgrundsbilden */
+    background-size: cover; /* Anpassa storleken på bakgrundsbilden */
+}
+.landing__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:4rem;
+    margin-top: 2rem;
+}
+.text__title{
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight: 500;
+    letter-spacing:0.2cm;
+    font-size: 3rem;
+}
+.text__sub-title{
+    font-family: poppins;
+}
+.text__body{
+    font-family: 'Lexend Exa', sans-serif;
+}
+.button__primary{
+    width: 259px;
+    height:70px;
+    border-radius: 10px;
+    font-family: poppins;
+    margin-bottom: 8rem;
+    background-color: transparent;
+    border: #EBE3DB 1px solid;
+    color: #EBE3DB;
+}
+.landing__hero{
+    position: relative;
+}
