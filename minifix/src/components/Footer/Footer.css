@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text{
+    font-family: poppins;
+    font-size: 12px;
+    width: 350px;
+    text-align: center;
+    padding:1rem;
+}
