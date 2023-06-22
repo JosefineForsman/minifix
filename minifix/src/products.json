@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Leggins",
+      "description": "Beskrivning av produkt 1",
+      "img":"../../assets/leggins.svg",
+      "price": 10.99
+    },
+    {
+      "name": "Mössor",
+      "description": "Beskrivning av produkt 2",
+      "img":"../../assets/hats.svg",
+      "price": 11.99
+    },
+    {
+        "name": "Snuttisar",
+        "description": "Beskrivning av produkt 3",
+        "img":"../../assets/snutte.svg",
+        "price": 12.99
+    },
+    {
+        "name": "Filtar",
+        "description": "Beskrivning av produkt 4",
+        "img":"../assets/filt.svg",
+        "price": 13.99
+    },
+    {
+        "name": "Leggins + Mössa",
+        "description": "Beskrivning av produkt 5",
+        "img":"../../assets/set.svg",
+        "price": 14.99
+    }
+  ]

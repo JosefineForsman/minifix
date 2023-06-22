@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     color: #EBE3DB;
-    background-image: url('../../assets/Hero.svg'); /* Lägg till bakgrundsbilden */
+    background-image: url('../../../assets/Hero.svg'); /* Lägg till bakgrundsbilden */
     background-size: cover; /* Anpassa storleken på bakgrundsbilden */
 }
 .landing__text{
@@ -42,3 +42,8 @@
 .landing__hero{
     position: relative;
 }
+@media (max-width: 300px) {
+   .landing__text{
+    padding: 0;
+   }
+  }
