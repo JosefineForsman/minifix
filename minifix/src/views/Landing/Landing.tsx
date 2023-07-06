@@ -1,3 +1,4 @@
+import Nav from '../../components/Nav/Nav';
 import './Landing.css';
 import { useNavigate } from 'react-router';
 

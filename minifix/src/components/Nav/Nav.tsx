@@ -1,24 +1,34 @@
 import './Nav.css'
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 function Nav(){
     const [showNav, setShowNav] = useState<boolean>(false);
+    const navigate = useNavigate();
 
     function showNavicon(){
         setShowNav(!showNav)
     }
-
+    function navigateToProducts(){
+        navigate('/produkter')
+    }
+    function navigateToAboutUs(){
+        navigate('/omoss')
+    }
+    function navigateToContact(){
+        navigate('/kontakt')
+    }
     return(
-        <nav onClick= { () => {setShowNav(!showNav)}}>{
+        <nav onClick={showNavicon}>{
             showNav ? 
             <div id="mySidenav" className="sidenav">
-                <a href="#" className="closebtn" onClick={showNavicon}>&times;</a>
-                <a href="#">Om oss</a>
-                <a href="#">Kontakta oss</a>
-                <a href="#">Produkter</a>
+                <a href="#" className="closebtn">&times;</a>
+                <a href="#" onClick={ navigateToAboutUs }>Om oss</a>
+                <a href="#" onClick={ navigateToContact }>Kontakta oss</a>
+                <a href="#" onClick={ navigateToProducts }>Produkter</a>
             </div> : ''
             }
-        <span className='nav-icon'>&#9776; </span>
+        <span className='nav-icon' onClick= {showNavicon}>&#9776; </span>
         </nav>
     )
 }
