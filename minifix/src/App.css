@@ -5,5 +5,17 @@ font-family: 'Poppins', sans-serif; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D1C7BD;
+
+}
+.text__title{
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 500;
+  letter-spacing:0.2cm;
+  font-size: 3rem;
+}
+.text__sub-title{
+  font-family: poppins;
+}
+.text__body{
+  font-family: 'Lexend Exa', sans-serif;
 }
