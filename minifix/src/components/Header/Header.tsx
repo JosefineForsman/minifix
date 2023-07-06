@@ -1,5 +1,5 @@
 import './Header.css';
-import nav from '../../../assets/icon.png'
+import Nav from '../Nav/Nav';
 
 function Header(){
 
@@ -9,7 +9,7 @@ function Header(){
                 <h1 className='text__title'>
                     Minfix
                 </h1>
-                <img src={nav} alt="nav-icon" className='header__nav' />
+                <Nav/>
             </article>
         </header>
     )
