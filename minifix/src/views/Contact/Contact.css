@@ -7,8 +7,8 @@
   .hero {
     width: 100%;
     /* height: 100vh; */
-    background-image: url('../../../assets/form.jpg'); /* Lägg till bakgrundsbilden */
-    background-size: cover; /* Anpassa storleken på bakgrundsbilden */
+    background-image: url('../../../assets/form.jpg');
+    background-size: cover; 
     filter: saturate(90%)
     contrast(99%);
     background-position: center;
@@ -19,13 +19,11 @@
     flex-direction: column;
   }
 
-  /* Storlek*/
   form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 700px ;
-    /* max-width: 600px;ß */
     color: rgb(0, 0, 0);
     background-color: #ffffffca;
     border-radius: 10px;
@@ -33,7 +31,6 @@
     margin-bottom: 2rem;
   }
 
-  /* Design inuti rutorna*/
   .input, textarea {
     display: flex;
     align-items: center;
