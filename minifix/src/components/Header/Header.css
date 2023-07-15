@@ -9,6 +9,9 @@ header{
     min-width: 350px;
     margin:0;
 }
+.header:hover{
+    cursor: pointer;
+}
 .header__nav{
     width: 2rem;
     height: 2rem;

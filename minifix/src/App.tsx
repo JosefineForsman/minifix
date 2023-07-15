@@ -5,6 +5,7 @@ import Landing from './views/Landing/Landing';
 import Products from './views/Products/Products';
 import AboutUs from './views/AboutUs/AboutUs';
 import Contact from './views/Contact/Contact';
+import ThankYou from './views/ThankYou/ThankYou';
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,10 @@ function App() {
   {
     path:'/kontakt',
     element: <Contact/>
+  },
+  {
+    path:'/tack',
+    element: <ThankYou/>
   }
 ]);
  
