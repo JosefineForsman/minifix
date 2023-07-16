@@ -1,5 +1,5 @@
 import Header from '../../components/Header/Header';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import './Contact.css';
 
@@ -18,17 +18,25 @@ function Contact(){
     message: string
   }
 
-  function getMessage(){
+  function getMessage() {
     const currentMessage: Message = {
       name: name,
       number: number,
       email: email,
       message: message
-    }
-    
-    // Lägger in meddelande i  local storage
-    localStorage.setItem('newMessage', JSON.stringify(currentMessage));
-    navigate('/tack')
+    };
+
+    // Hämta befintiga meddelanden från local storage
+    const existingMessages = localStorage.getItem('messages');
+    const messages = existingMessages ? JSON.parse(existingMessages) : [];
+
+    // Lägg till det nya meddelandet i arrayen
+    messages.push(currentMessage);
+
+    // Spara den uppdaterade arrayen i local storage
+    localStorage.setItem('messages', JSON.stringify(messages));
+
+    navigate('/tack');
   }
   
     return(
