@@ -18,11 +18,15 @@ function Nav(){
     function navigateToContact(){
         navigate('/kontakt')
     }
+    function navigateToBuy(){
+        navigate('/köpa')
+    }
     return(
         <nav onClick={showNavicon}>{
             showNav ? 
             <div id="mySidenav" className="sidenav">
                 <a href="#" className="closebtn">&times;</a>
+                <a href="#" onClick={ navigateToBuy }>Hur köper jag produkter?</a>
                 <a href="#" onClick={ navigateToAboutUs }>Om oss</a>
                 <a href="#" onClick={ navigateToContact }>Kontakta oss</a>
                 <a href="#" onClick={ navigateToProducts }>Produkter</a>

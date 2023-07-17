@@ -6,6 +6,7 @@ import Products from './views/Products/Products';
 import AboutUs from './views/AboutUs/AboutUs';
 import Contact from './views/Contact/Contact';
 import ThankYou from './views/ThankYou/ThankYou';
+import Buy from './views/Buy/Buy';
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +29,10 @@ function App() {
   {
     path:'/tack',
     element: <ThankYou/>
+  },
+  {
+    path:'/köpa',
+    element: <Buy/>
   }
 ]);
  

@@ -26,6 +26,9 @@
 .landing__hero{
     position: relative;
 }
+.hand{
+    width: 300px;
+}
 @media (max-width: 300px) {
    .landing__text{
     padding: 0;

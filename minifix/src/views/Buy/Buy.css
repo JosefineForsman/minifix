@@ -1,0 +1,20 @@
+.buy__container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: rgb(254, 240, 223);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.buy__text{
+    font-family: 'Abril Fatface';
+    letter-spacing: 0.05em;
+}
+.buy__body-text{
+    font-family: poppins;
+}
+.text__title-buy{
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
