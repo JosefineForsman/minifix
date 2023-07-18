@@ -17,5 +17,6 @@ font-family: 'Poppins', sans-serif; */
   font-family: poppins;
 }
 .text__body{
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: poppins;
+  font-weight: 500;
 }

@@ -17,8 +17,6 @@ function Landing(){
             <article className='landing__text'>
                 <Header/>
                 <h3 className='text__sub-title'>Välkommen hit!</h3>
-                <SlideShow/>
-                <p>bildspel här? eller bilder?</p>
                 <img src={Hand} alt="hand" className='hand' />
                 <p className='text__body'>Letar du efter unika barnkläder som funkar lika bra till både tjej och kille? Då har du kommit rätt!</p>
             </article>
