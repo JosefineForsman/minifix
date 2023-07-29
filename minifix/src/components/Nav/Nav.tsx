@@ -15,9 +15,7 @@ function Nav(){
     function navigateToAboutUs(){
         navigate('/omoss')
     }
-    function navigateToContact(){
-        navigate('/kontakt')
-    }
+  
     function navigateToBuy(){
         navigate('/köpa')
     }
@@ -28,7 +26,6 @@ function Nav(){
                 <a href="#" className="closebtn">&times;</a>
                 <a href="#" onClick={ navigateToBuy }>Hur köper jag produkter?</a>
                 <a href="#" onClick={ navigateToAboutUs }>Om oss</a>
-                <a href="#" onClick={ navigateToContact }>Kontakta oss</a>
                 <a href="#" onClick={ navigateToProducts }>Produkter</a>
             </div> : ''
             }

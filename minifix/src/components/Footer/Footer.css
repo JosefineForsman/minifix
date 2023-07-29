@@ -2,6 +2,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#B6886A;
+    margin-bottom:0;
 }
 .footer__text{
     font-family: poppins;
@@ -9,4 +11,5 @@ footer{
     width: 350px;
     text-align: center;
     padding:1rem;
+    color:white;
 }

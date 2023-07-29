@@ -4,4 +4,10 @@ interface Product {
     img: string,
     price: number
 }
- export type {Product}
+interface NewItems {
+    name: string,
+    description: string,
+    img: string,
+    price: number
+}
+ export type {Product, NewItems}

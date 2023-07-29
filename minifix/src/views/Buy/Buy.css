@@ -6,15 +6,19 @@
     background-color: rgb(254, 240, 223);
     padding: 2rem;
     border-radius: 10px;
+    margin-bottom: 2rem;
 }
 .buy__text{
     font-family: 'Abril Fatface';
     letter-spacing: 0.05em;
+    color:#B6886A;
 }
 .buy__body-text{
     font-family: poppins;
+    color:#B6886A;
 }
 .text__title-buy{
     font-size: 2rem;
     letter-spacing: 0.05em;
+    color:#B6886A;
 }

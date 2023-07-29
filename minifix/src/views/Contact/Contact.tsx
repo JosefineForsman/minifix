@@ -45,8 +45,8 @@ function Contact(){
             <Header/>
         </section>
           <form name="company-form" >
-            <h1 className='text__title'>Kontakta oss :</h1>
-            <h2 className='text__form'>Skulle det vara så att du har några som helst frågor så är det bara att skicka iväg ett meddelande här!</h2>
+            <h1 className='text__title'>Kontakta Minifx :</h1>
+            <h2 className='text__form'>Om du har några som helst frågor så är det bara att skicka iväg ett meddelande här via formuläret.</h2>
             <br/>
           <div className="hero__container">
             <input className='input' type="text" onChange={(e)=> setName(e.target.value)} required/>

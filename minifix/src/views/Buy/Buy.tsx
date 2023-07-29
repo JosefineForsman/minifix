@@ -1,5 +1,6 @@
 import './Buy.css';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 function Buy(){
 
@@ -17,6 +18,7 @@ function Buy(){
                 <p className='buy__body-text'>Jag kommer kontaka dig via mail, och så kommer betalningen ske via Swish. (Precis som när ni köpt via instagram)</p>
                 <h3 className='buy__text'>Klart!!</h3>
             </article>
+            <Footer/>
         </section>
     )
 }

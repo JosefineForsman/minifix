@@ -8,6 +8,7 @@ header{
     align-items: center;
     min-width: 350px;
     margin:0;
+    color:#B6886A;
 }
 .header:hover{
     cursor: pointer;
@@ -15,4 +16,7 @@ header{
 .header__nav{
     width: 2rem;
     height: 2rem;
+}
+@media(min-width:700px ){
+    
 }
